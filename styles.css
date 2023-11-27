@@ -29,17 +29,9 @@ h2{
 }
 
 h3{
-    color: #F4EEE0;
+    color: #393646;
     margin-top: 0%;
     margin-bottom: 0%;
-}
-
-p{
-    color: #F4EEE0;
-}
-
-ul{
-    color: #F4EEE0;
 }
 
 .navbar{
@@ -57,10 +49,14 @@ ul{
     background-color: #6D5D6E;
 }
 
+hr{
+    margin: 0px;
+}
+
 /* Summary */
 
 .summary{
-    background-color: #393646;
+    background-color: #F4EEE0;
 }
 
 .summary-heading{
@@ -87,7 +83,7 @@ img{
 .summary-text{
     display: flex;
     justify-content: center;
-    color: #F4EEE0;
+    color: #393646;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
@@ -96,7 +92,7 @@ img{
 /* Education */
 
 #education{
-    background-color: #393646;
+    background-color: #F4EEE0;
 }
 
 .education-heading{
@@ -110,7 +106,7 @@ img{
 .education-text{
     display: flex;
     justify-content: center;
-    color: #F4EEE0;
+    color: #393646;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
@@ -119,7 +115,7 @@ img{
 /* Work Experience */
 
 #work-experience{
-    background-color: #393646;
+    background-color: #F4EEE0;
 }
 
 .work-ex-heading{
@@ -133,7 +129,7 @@ img{
 .work-ex-text{
     display: flex;
     justify-content: center;
-    color: #F4EEE0;
+    color: #393646;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
@@ -142,7 +138,7 @@ img{
 /* Skills */
 
 #skills{
-    background-color: #393646;
+    background-color: #F4EEE0;
 }
 
 .skills-heading{
@@ -156,7 +152,7 @@ img{
 .skills-text{
     display: flex;
     justify-content: center;
-    color: #F4EEE0;
+    color: #393646;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
