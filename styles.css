@@ -49,6 +49,10 @@ h3{
     background-color: #6D5D6E;
 }
 
+hr{
+    margin: 0px;
+}
+
 /* Summary */
 
 .summary{
