@@ -2,6 +2,7 @@
 
 body{
     margin: 0px;
+    background-color: #F4EEE0;
 }
 
 .heading{
@@ -51,7 +52,9 @@ h3{
 }
 
 hr{
-    margin: 0px;
+   width: 3.5%;
+    border-top: 5px dotted #393646;
+    background-color: #F4EEE0;
 }
 
 /* Summary */
@@ -64,8 +67,11 @@ hr{
 
 img{
     border-radius: 20px;
-    height: 250px;
-    margin-left: 30;
+    height: 350px;
+}
+
+.abstand{
+    margin-left: 60px;
 }
 
 /* Education */
@@ -102,5 +108,14 @@ img{
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+    padding-bottom: 20px;
+}
+
+.container2{
+    display: flex;
+    background-color: #F4EEE0;
+    color: #393646;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 20px;
 }
