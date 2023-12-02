@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    background-color: #393646;
+    align-items: center;
+    justify-content: space-around;
+    height: 4.5rem;
+}
+
+.nav-text{
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #F4EEE0;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color: #a69c89;
+}
+
+/* About Me */
+.about-me{
+    background-color: #4F4557;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.max-width{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+}
+
+section img{
+    height: 25rem;
+    border-radius: 10%;
+}
+
+section .header{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
