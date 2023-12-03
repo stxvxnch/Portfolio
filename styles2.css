@@ -33,27 +33,97 @@ a:hover{
     color: #a69c89;
 }
 
-/* About Me */
-.about-me{
+/* Heading */
+.heading{
     background-color: #4F4557;
     display: flex;
     justify-content: center;
+    align-self: center;
+    padding: 4rem;
+    gap: 5em;
  
 }
 
-.max-width{
-    max-width: 1200px;
+.heading .img{
     display: flex;
     justify-content: center;
-    gap: 14rem;
 }
 
-section img{
+.heading .img img{
     height: 25rem;
     border-radius: 10%;
+    box-shadow: 10px 10px rgba(37, 36, 36, 0.3);
 }
 
-section .header{
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
+.heading .header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 2em;
+}
+
+.header h1{
+    font-size: 4em;
+    color: #F4EEE0;
+    align-content: flex-start;
+}
+
+.header h2{
+    font-size: 6em;
+    color: #F4EEE0;
+}
+
+/* About Me */
+
+.about-me{
+    background-color: #4F4557;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-heading{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.about-me p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #F4EEE0;
+}
+
+/* Work Experience */
+
+.work-experience{
+    background-color: #4F4557;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+.we-heading{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.list li{
+    list-style-type: none;
+    color: #F4EEE0;
+    font-size: 1.5em;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
