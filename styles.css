@@ -1,121 +1,225 @@
-/* INDEX.html */
-
-body{
-    margin: 0px;
-    background-color: #F4EEE0;
+html{
+    scroll-behavior: smooth;
 }
 
-.heading{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+nav{
     display: flex;
     background-color: #393646;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    height: 4.5rem;
 }
 
- h1{
-    margin: 50px 0px;
-    font-size: 3rem; 
-    color: #F4EEE0;
-}
-
-h2{
-    margin-bottom: 20px;
-    color: #F4EEE0;
-}
-
-h3{
+.nav-text{
     display: flex;
-    background-color: #F4EEE0;
-    color: #393646;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    justify-content: center;
-    padding: 30px 0px;
-    font-size: 23px;
+    justify-content: space-around;
+    gap: 8rem;
 }
 
-.navbar{
-    display: flex;
+a{
+    text-decoration: none;
+    color: #F4EEE0;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color: #a69c89;
+}
+
+/* Heading */
+.heading{
     background-color: #4F4557;
-    width: 97%;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.a{
-    color: #F4EEE0;
-    background-color: #6D5D6E;
-}
-
-hr{
-   width: 3.5%;
-    border-top: 5px dotted #393646;
-    background-color: #F4EEE0;
-}
-
-/* Summary */
-
-.width{
     display: flex;
-    justify-content: space-around;
-    padding: 0px 100px;
+    justify-content: center;
+    align-self: center;
+    padding: 4rem;
+    gap: 5em;
+ 
 }
 
-img{
-    border-radius: 20px;
-    height: 350px;
+.heading .img{
+    display: flex;
+    justify-content: center;
 }
 
-.abstand{
-    margin-left: 60px;
+.heading .img img{
+    height: 25rem;
+    border-radius: 10%;
+    box-shadow: 10px 10px rgba(37, 36, 36, 0.3);
 }
 
-/* Education */
+.heading .header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 2em;
+}
+
+.header h1{
+    font-size: 4em;
+    color: #F4EEE0;
+    align-content: flex-start;
+}
+
+.header h2{
+    font-size: 6em;
+    color: #F4EEE0;
+}
+
+/* About Me */
+
+.about-me{
+    background-color: #4F4557;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-heading{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.about-me p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #F4EEE0;
+}
 
 /* Work Experience */
 
-/* Skills */
-
-/* footer */
-
-#footer{
+.work-experience{
     background-color: #4F4557;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer{
+.we-heading{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.list li{
+    list-style-type: none;
+    color: #F4EEE0;
+    font-size: 1.5em;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Hobbies */
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    padding-bottom: 8em;
+    background-color: #4F4557;
+    gap: 4em;
+}
+
+.ho-heading{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.hobby{
     display: flex;
     justify-content: space-around;
-    padding: 30px;
-    color:#F4EEE0;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-weight: bold;
 }
 
-.a-footer{
-    text-decoration: none;
+.hobby-item{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border: #F4EEE0 solid 6px;
+    border-radius: 10%;
+    box-shadow: 5px 10px rgba(37, 36, 36, 0.3);
+}
+
+.hobby i{
+    font-size: 90px;
     color: #F4EEE0;
 }
 
-.container{
-    display: flex;
-    background-color: #F4EEE0;
-    color: #393646;
-    justify-content: center;
-    align-items: center;
-    flex-flow: wrap;
-    padding-bottom: 20px;
+.hobby h2{
+    color: #F4EEE0;
+    font-size: 2.5em;
+    text-align: center;
 }
 
-.container2{
+/* Footer */
+
+footer{
     display: flex;
-    background-color: #F4EEE0;
-    color: #393646;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 10px 40px;
+    background-color: #393646;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+}
+
+.picture img{
+    width: 90%;
+    border-radius: 100%;
+}
+
+.links{
+    display: flex;
+    gap: 9em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links li{
+    list-style: none;
+}
+
+.footer-link{
+    font-size: 1.8em;
+}
+
+.shake{
+    width: 100px;
+    color: #F4EEE0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.shake i{
+    font-size: 4vw;
 }

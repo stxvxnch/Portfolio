@@ -1,0 +1,121 @@
+/* INDEX.html */
+
+body{
+    margin: 0px;
+    background-color: #F4EEE0;
+}
+
+.heading{
+    display: flex;
+    background-color: #393646;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    margin: 50px 0px;
+    font-size: 3rem; 
+    color: #F4EEE0;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #F4EEE0;
+}
+
+h3{
+    display: flex;
+    background-color: #F4EEE0;
+    color: #393646;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: center;
+    padding: 30px 0px;
+    font-size: 23px;
+}
+
+.navbar{
+    display: flex;
+    background-color: #4F4557;
+    width: 97%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.a{
+    color: #F4EEE0;
+    background-color: #6D5D6E;
+}
+
+hr{
+   width: 3.5%;
+    border-top: 5px dotted #393646;
+    background-color: #F4EEE0;
+}
+
+/* Summary */
+
+.width{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+img{
+    border-radius: 20px;
+    height: 350px;
+}
+
+.abstand{
+    margin-left: 60px;
+}
+
+/* Education */
+
+/* Work Experience */
+
+/* Skills */
+
+/* footer */
+
+#footer{
+    background-color: #4F4557;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    color:#F4EEE0;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: #F4EEE0;
+}
+
+.container{
+    display: flex;
+    background-color: #F4EEE0;
+    color: #393646;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    padding-bottom: 20px;
+}
+
+.container2{
+    display: flex;
+    background-color: #F4EEE0;
+    color: #393646;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
