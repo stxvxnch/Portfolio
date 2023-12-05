@@ -134,6 +134,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     padding: 4em;
+    padding-bottom: 8em;
     background-color: #4F4557;
     gap: 4em;
 }
@@ -171,4 +172,55 @@ a:hover{
     color: #F4EEE0;
     font-size: 2.5em;
     text-align: center;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #393646;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+}
+
+.picture img{
+    width: 90%;
+    border-radius: 100%;
+}
+
+.links{
+    display: flex;
+    gap: 7em;
+    justify-content: space-around;
+    align-items: center;
+    width: 60em;
+}
+
+.links li{
+    list-style: none;
+}
+
+.footer-link{
+    font-size: 1.8em;
+}
+
+.shake{
+    width: 100px;
+    color: #F4EEE0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.shake i{
+    font-size: 4vw;
 }
