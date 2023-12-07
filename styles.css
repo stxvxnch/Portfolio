@@ -97,6 +97,17 @@ a:hover{
     color: #F4EEE0;
 }
 
+.about-me ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #F4EEE0;
+    font-size: 1.5em;
+    gap: 20px;
+}
+
 /* Work Experience */
 
 .work-experience{
