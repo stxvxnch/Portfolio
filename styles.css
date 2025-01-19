@@ -187,9 +187,9 @@ a:hover{
 
 /* Footer */
 
-footer{
+.foot{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 40px;
     background-color: #393646;
@@ -211,7 +211,6 @@ footer{
     display: flex;
     gap: 9em;
     justify-content: space-between;
-    align-items: center;
 }
 
 .links li{
